@@ -60,13 +60,27 @@ body {
 
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-	border: 2px solid #FFFFFF;
+	border: 2px solid #000000;
+	background: #C8C8C8;
 }
+navbar-header button:active.navbar-toggle,
+.navbar-header .icon-bar {
+    background:white;
+    
+}
+
+.navbar-header button:focus.navbar-toggle,
+.navbar-header .icon-bar{
+    background:white;
+}
+
+
 
 .navbar-header button.navbar-toggle {
 	clear: both;
 	margin-top: 10px;
 }
+
 
 h2 {
 	font-weight: bold;
